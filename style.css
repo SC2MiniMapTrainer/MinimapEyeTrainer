@@ -1,0 +1,102 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a:link {
+    color: lightblue;
+}
+
+a:visited {
+    color: lightcoral;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+input {
+    font-size: 2rem;
+    width: 70px;
+    background-color: #212121;
+    color: #FDFDFD;
+}
+
+input[type="radio"] {
+    width: 13px;
+}
+
+body {
+    background-color: #323232;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    color: #FDFDFD;
+}
+
+footer {
+    padding: 10px;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    background-color: #212121;
+}
+
+ol {
+    text-align: left;
+}
+
+.button-start {
+    margin: auto;
+    font-size: 3rem;
+    font-family: 'Varela Round', sans-serif;
+    padding: 0 20px;
+    background-color: #d8d3cd;
+    color: #FDFDFD;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: thick;
+    margin-top: 100px;
+}
+
+.button-start:hover {
+    border-color: #F0F0F0;
+}
+
+.container {
+    pointer-events: none;
+}
+
+.container a {
+    pointer-events: all;
+}
+
+.removed {
+    display: none;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.radio_container {
+    position: absolute;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    font-size: 1.5rem;
+    display: grid;
+    text-align: left;
+    grid-template-columns: 30px 200px 30px 200px;
+    grid-row: auto auto;
+}
+
+.settings {
+    margin: 5% 30% 0% 30%;
+    font-size: 2rem;
+}
+
+#interval {
+    margin-bottom: 10px;
+}
